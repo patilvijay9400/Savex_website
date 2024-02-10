@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+/* ---------COMMON CLASS-------- */
+.btn-primary {
+  background-color: #f58634;
+  border-color: #f58634;
+}
+.btn-primary:focus {
+  background-color: #f58634 !important;
+  border-color: #f58634 !important;
+}
+.primary-color {
+  color: #f58634;
+}
+.text-18 {
+  font-size: 1.2rem;
+}
+.text-14 {
+  font-size: 0.8rem;
+}
+.btn-primary:hover {
+  background-color: #e47424;
+  border-color: #e47424;
+}
+.rounded-5 {
+  border-radius: 0.5rem !important;
+}
+.rounded-10 {
+  border-radius: 1.2rem !important;
+}
+.bg-black {
+  background-color: #000000;
+}
+.fw-bold {
+  font-weight: 600 !important;
+}
+@media (min-width: 992px) {
+  .w-md-auto {
+    width: auto !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .display-4 {
+    font-size: 1.4rem;
+  }
+  .carousel-item h3 {
+    font-size: 0.8rem !important;
+  }
+  .btn-lg {
+    padding: 0.25rem 0.5rem !important;
+    font-size: 0.7rem !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .display-4 {
+    font-size: 1rem;
+  }
+  .carousel-item h3 {
+    font-size: 0.7rem !important;
+  }
+  .btn-lg {
+    padding: 0.25rem 0.5rem !important;
+    font-size: 0.7rem !important;
+  }
+}
+
+/* -----------Widget component css------------- */
+.widget-img-1 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.25)
+    ),
+    url("../public/images/widget-01.png") no-repeat center/cover;
+}
+
+.widget-img-2 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.25)
+    ),
+    url("../public/images/widget-02.png") no-repeat center/cover;
+}
+.widget-img-3 {
+  background: url("../public/images/widget-03.png") no-repeat center / cover;
+}
+.widget-img-4 {
+  background: url("../public/images/widget-04.png") no-repeat center / cover;
+}
+.widget-img-5 {
+  background: url("../public/images/widget-05.png") no-repeat center / cover;
+}
+.widget-img-6 {
+  background: url("../public/images/widget-06.png") no-repeat center / cover;
+}
+
+/* ------------hero section css-------------- */
+.carousel-indicators {
+  position: relative !important;
+}
+.carousel-indicators button {
+  width: 10px !important;
+  height: 10px !important;
+  margin: 5px 7px;
+  background-color: #d6d6d6 !important;
+  border-radius: 50% !important;
+  display: block;
+  transition: opacity 200ms ease !important;
+  border-radius: 30px;
+}
+.carousel-indicators button.active {
+  background-color: #869791 !important;
+}
+.owl-carousel .owl-stage .item {
+  padding: 0.5rem;
+}
+
+/* -----------Header css------------ */
+.navbar-nav a {
+  font-size: 0.9rem;
+  transition: opacity 200ms ease !important;
+  border-bottom: 2px solid transparent;
+}
+.form-control {
+  border: 1px solid #f58634 !important;
+}
+.navbar-nav a:hover {
+  border-bottom: 2px solid #f58634;
+}
+
+/* -------------Mega-menu-------------------- */
+.mega-menu h6 {
+  display: inline-block;
+  padding-left: 0.3rem;
+}
+.mega-menu h6::after {
+  content: "";
+  display: block;
+  width: 40%;
+  background-color: #000000;
+  height: 2px;
+}
+.list-group-item-action:focus,
+.list-group-item-action:hover {
+  background-color: #ffc9a2;
+}
+.mega-menu .ri-arrow-right-s-line {
+  visibility: hidden;
+}
+.list-group-item-action:focus,
+.list-group-item-action:hover .ri-arrow-right-s-line {
+  visibility: visible;
+}
+.mega-menu .list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.3rem;
+  font-size: 14px;
+}
+.product-menu:hover .mega-menu{
+  display: none;
+}
+.mega-menu-container{
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
