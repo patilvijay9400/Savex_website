@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import { useHref } from "react-router-dom";
 
 const SubHeader = () => {
   const [megaMenuVisible, setMegaMenuVisible] = useState(false);
-  const [openSubMenu, setOpenSubMenu] = useState(false);
 
   const handleProductMenuHover = () => {
     setMegaMenuVisible(true);
@@ -11,7 +9,6 @@ const SubHeader = () => {
 
   const handleProductMenuLeave = () => {
     setMegaMenuVisible(false);
-    setOpenSubMenu(false)
   };
 
   return (
@@ -56,7 +53,7 @@ const SubHeader = () => {
                   <div className="list-group position-relative">
                     <button
                       type="button"
-                      onClick={() => setOpenSubMenu(true)}
+                      data-bs-toggle="dropdown" aria-expanded="false"
                       className="list-group-item list-group-item-action d-flex justify-content-between rounded-3 border-0"
                     >
                       <span>PC</span>
@@ -96,9 +93,8 @@ const SubHeader = () => {
                     >
                       View all
                     </button>
-                    {openSubMenu && (
                       <div
-                        className="drop-content position-absolute top-0 start-100 bg-light py-2 ps-2 pe-5 w-100 rounded-3"
+                        className="drop-content dropdown-menu position-absolute top-0 start-100 bg-light py-2 ps-2 pe-5 w-100 rounded-3"
                         style={{ zIndex: "20" }}
                       >
                         <div className="list-group">
@@ -152,7 +148,6 @@ const SubHeader = () => {
                           </button>
                         </div>
                       </div>
-                    )}
                   </div>
                 </div>
                 <div className="col mb-2">

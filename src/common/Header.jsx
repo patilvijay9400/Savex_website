@@ -4,7 +4,7 @@ import SubHeader from "./SubHeader";
 
 const Header = () => {
   return (
-    <header className="px-md-5">
+    <header className="px-2 px-md-5">
       <nav className="navbar navbar-expand-lg navbar-white bg-white">
         <div className="container-fluid px-0">
           <div className="d-flex align-items-center justify-content-between w-100 w-md-auto px-2">

@@ -61,6 +61,15 @@ body {
     padding: 0.25rem 0.5rem !important;
     font-size: 0.7rem !important;
   }
+  h2{
+    font-size: 1.2rem;
+  }
+  h3{
+    font-size: 1rem;
+  }
+  p{
+    font-size: 0.8rem;
+  }
 }
 
 @media (max-width: 375px) {
@@ -80,8 +89,8 @@ body {
 .widget-img-1 {
   background: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.25)
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.35)
     ),
     url("../public/images/widget-01.png") no-repeat center/cover;
 }
@@ -89,8 +98,8 @@ body {
 .widget-img-2 {
   background: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.25)
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.35)
     ),
     url("../public/images/widget-02.png") no-repeat center/cover;
 }

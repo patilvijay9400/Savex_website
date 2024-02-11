@@ -30,10 +30,10 @@ const ShopByCategory = () => {
 
   return (
     <div className="px-md-5 px-2 mt-4">
-      <h2 className="fw-bold">SHOP BY CATEGORY</h2>
+      <h2 className="px-2 fw-bold">SHOP BY CATEGORY</h2>
       <ReactOwlCarousel className="owl-theme" {...options}>
         <div className="item">
-          <div className="card border-0 shadow rounded-10 my-3 p-3">
+          <div className="card border-0 shadow rounded-10 mb-3 p-3">
             <img
               src={process.env.PUBLIC_URL + "/images/category-01.png"}
               className="card-img-top img-fluid"
@@ -45,7 +45,7 @@ const ShopByCategory = () => {
           </div>
         </div>
         <div className="item">
-          <div className="card border-0 shadow rounded-10 my-3 p-3">
+          <div className="card border-0 shadow rounded-10 mb-3 p-3">
             <img
               src={process.env.PUBLIC_URL + "/images/category-02.png"}
               className="card-img-top img-fluid"
@@ -57,7 +57,7 @@ const ShopByCategory = () => {
           </div>
         </div>
         <div className="item">
-          <div className="card border-0 shadow rounded-10 my-3 p-3">
+          <div className="card border-0 shadow rounded-10 mb-3 p-3">
             <img
               src={process.env.PUBLIC_URL + "/images/category-03.png"}
               className="card-img-top img-fluid"
@@ -69,7 +69,7 @@ const ShopByCategory = () => {
           </div>
         </div>
         <div className="item">
-          <div className="card border-0 shadow rounded-10 my-3 p-3">
+          <div className="card border-0 shadow rounded-10 mb-3 p-3">
             <img
               src={process.env.PUBLIC_URL + "/images/category-04.png"}
               className="card-img-top img-fluid"
@@ -81,7 +81,7 @@ const ShopByCategory = () => {
           </div>
         </div>
         <div className="item">
-          <div className="card border-0 shadow rounded-10 my-3 p-3">
+          <div className="card border-0 shadow rounded-10 mb-3 p-3">
             <img
               src={process.env.PUBLIC_URL + "/images/category-02.png"}
               className="card-img-top img-fluid"

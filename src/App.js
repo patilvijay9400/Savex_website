@@ -11,7 +11,7 @@ function App() {
         <Header />
         <div className="row mx-0 main-container">
           <div className="col px-0">
-            <aside className="pages h-100 py-3">
+            <aside className="pages h-100">
               <Routes>
                 <Route path="/" element={<Home />} />
               </Routes>

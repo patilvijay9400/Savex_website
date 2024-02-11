@@ -8,7 +8,7 @@ const Hero = () => {
       data-bs-ride="carousel"
       data-bs-interval="10000"
     >
-      <div className="carousel-inner">
+      <div className="carousel-inner px-2">
         <div className="carousel-item active">
           <div className="d-flex justify-content-between align-items-center">
             <div className="content w-50">
