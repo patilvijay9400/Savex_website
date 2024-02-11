@@ -30,7 +30,7 @@ const ShopByBrand = () => {
 
   return (
     <div className="px-md-5 px-2 mt-4">
-      <h2 className="fw-bold">SHOP BY BRAND</h2>
+      <h2 className="fw-bold px-2">SHOP BY BRAND</h2>
       <ReactOwlCarousel className="owl-theme" {...options}>
         <div className="item">
           <div className="border p-3 rounded-10 d-flex justify-content-center">
